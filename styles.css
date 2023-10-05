@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header {
+    flex-direction: column;
+    width: 900px;
+}
+
+.header-upper {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: flex-end;
+    margin-bottom: 75px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.header-lower {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.left, .right {
+    width: 400px;
+}
+
+.right {
+    background-color: grey;
+}
+
+.upper-button {
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 75px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.illustration-container {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.card-container {
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quote {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    background-color: #3882F6;
+    padding: 25px 75px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.action-upper {
+    font-weight: 500;
+    color: white;
+}
+
+.action-lower {
+    color: #E5E7EB;
+}
+
+.lower-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 25px;
+}
